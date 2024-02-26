@@ -1,0 +1,25 @@
+.title {
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.rating_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.overview {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    height: 120px;
+    overflow-y: hidden;
+}
+.overview:hover {
+    overflow-y: auto;
+}

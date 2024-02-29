@@ -6,6 +6,7 @@
 
 .img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .title {
@@ -19,4 +20,16 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap
+}
+
+@media only screen and (max-width: 768px){
+    .container {
+        width: 200px;
+    }
+    .title {
+        width: 200px;
+        height: 34px;
+        margin-top:  -34px;
+        padding: 6px 8px 0 8px;
+    }
 }
